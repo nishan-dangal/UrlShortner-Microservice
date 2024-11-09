@@ -15,67 +15,96 @@
     color: #333;
   }
   
-  .container {
+  /* Container for the entire content */
+main {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     padding: 20px;
-    text-align: center;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    text-align: center;
   }
   
   /* Header */
   h1 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     color: #333;
   }
-  
-  /* Instructions */
-  .instructions {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
   
-  /* Input Field */
-  input[type="url"] {
-    width: 80%;
+  fieldset {
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  input[type="text"] {
+    width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 4px;
-    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
   }
   
-  button {
-    padding: 10px 20px;
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px;
     font-size: 1rem;
+    font-weight: bold;
     color: #fff;
     background-color: #007bff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
-  button:hover {
+  input[type="submit"]:hover {
     background-color: #0056b3;
   }
   
-  /* Shortened URL Display */
-  .short-url {
-    font-size: 1.1rem;
-    color: #007bff;
-    margin-top: 1rem;
-    word-wrap: break-word;
+  /* Footer */
+  footer {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #777;
   }
   
-  /* Footer */
-  .footer {
-    font-size: 0.8rem;
-    color: #aaa;
-    margin-top: 2rem;
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
   }
   
