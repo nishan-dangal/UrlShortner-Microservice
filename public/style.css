@@ -1,0 +1,81 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Instructions */
+  .instructions {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Input Field */
+  input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Shortened URL Display */
+  .short-url {
+    font-size: 1.1rem;
+    color: #007bff;
+    margin-top: 1rem;
+    word-wrap: break-word;
+  }
+  
+  /* Footer */
+  .footer {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 2rem;
+  }
+  
